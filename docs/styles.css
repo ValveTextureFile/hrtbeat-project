@@ -248,6 +248,18 @@ body {
     font-size: 0.9em;
 }
 
+.markdown-body a {
+    color: #8ab4f8;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    border-bottom: 1px solid rgba(138, 180, 248, 0.2);
+}
+
+.markdown-body a:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
 /* mobile */
 @media (max-width: 768px) {
     .hero-tagline {
