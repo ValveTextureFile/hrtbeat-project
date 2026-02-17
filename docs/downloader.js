@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function() {
     //they look to be the same?? i hope tacky keeps this trend..
     if (isIPhone || isIPad) {
         downloadLink.href = "https://github.com/hrtbeat-app/hrtbeat/releases/latest/download/hrtbeat.ipa";
-        downloadLink.innerHTML = `<img src="assets/download-24.svg" class="btn-icon" alt=""> Download for iOS`;
+        downloadLink.innerHTML = `<img src="assets/download-24.svg" class="btn-icon" alt=""> download for iOS`;
     } 
     else if (isMacOS) {
         downloadLink.href = "https://github.com/hrtbeat-app/hrtbeat/releases/latest/download/hrtbeat.macOS.zip";
-        downloadLink.innerHTML = `<img src="assets/download-24.svg" class="btn-icon" alt=""> Download for macOS`;
+        downloadLink.innerHTML = `<img src="assets/download-24.svg" class="btn-icon" alt=""> download for macOS`;
     }
 });
